@@ -363,15 +363,10 @@ all</td>
   <div class="container" id="frames" style="margin-top:75px">
     <h1 class="xxxlarge text-red"><b>Frames</b></h1>
     <hr style="width:50px;border:5px solid red" class="round">
-	  <h2> Introduction </h2>
-	  <p>A web page can be divided into several blocks called frames.
-Each frame may display a separate web page.
-Frames are used to have the menu in one frame and the content in another frame.
-HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document.</p>
-	<br><hr><br>
-	  <h2>Definition</h2>
+	<h2>Definition</h2>
     <p>HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document. A collection of frames in the browser window is known as a frameset. The window is divided into frames in a similar way the tables are organized: into rows and columns.</p>
 <br><hr><br>
+
 <h2>Creating Frames</h2>
 <p>To use frames on a page we use <code class="codespan">&lt;frameset&gt;</code> tag instead of <code class="codespan">&lt;body&gt;</code> tag. The <code class="codespan">&lt;frameset&gt;</code> tag defines, how to divide the window into frames. The <b>rows</b> attribute of <code class="codespan">&lt;frameset&gt;</code> tag defines horizontal frames and <b>cols</b> attribute defines vertical frames. Each frame is indicated by <code class="codespan">&lt;frame&gt;</code> tag and it defines which HTML document shall open into the frame.</p>
 <blockquote><p><b>Note</b> − The <code class="codespan">&lt;frame&gt;</code> tag deprecated in HTML5. Do not use this element.</p></blockquote>
@@ -479,13 +474,8 @@ HTML frames are used to divide your browser window into multiple sections where 
 <p>This attribute specifies the amount of space between frames in a frameset. This can take any integer value. For example framespacing = "10" means there should be 10 pixels spacing between each frames.</p></td>
 </tr>
 </tbody></table>
-	  <br><br><hr><br>
-	  <h2>Advantages of Frames</h2>
-<ul>
-<li>The main advantage of frames is that it allows the user to view multiple documents within a single Web page.</li>
-	<li>It is possible to load pages from different servers in a single frameset.</li>
-<li>This tag provides a section in an HTML document to include alternative content for browsers without support for frames.</li>
-<br><hr><br>
+<br><br><hr><br>
+
 <h2>Disadvantages of Frames</h2> 
 <p>There are few drawbacks with using frames, so it's never recommended to use frames in your webpages −</p>
 <ul class="list">
@@ -494,55 +484,6 @@ HTML frames are used to divide your browser window into multiple sections where 
 <li><p>The browser's <i>back</i> button might not work as the user hopes.</p></li>
 <li><p>There are still few browsers that do not support frame technology.</p></li>
 </ul>
-<br><hr><br>
-	<h2>HTML Table Tags</h2>
-<table class="table-all">
-<tr>
-<th>Tag</th>
-<th>Description</th>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;table&gt;</td>
-<td style="text-align:center;vertical-align:middle">Defines a table</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;th&gt;</td>
-<td style="text-align:center;vertical-align:middle">Defines a header cell in a table</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;tr&gt;</td>
-<td style="text-align:center;vertical-align:middle">Defines a row in a table</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;td&gt;</td>
-<td style="text-align:center;vertical-align:middle">Defines a cell in a table</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;caption&gt;</td>
-<td style="text-align:center;vertical-align:middle">Defines a table caption</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;colgroup&gt;</td>
-<td style="text-align:center;vertical-align:middle">Specifies a group of one or more columns in a table for formatting</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;col&gt;</td>
-<td style="text-align:center;vertical-align:middle">Specifies column properties for each column within a &lt;colgroup&gt; element</td>
-</tr style="text-align:center;vertical-align:middle">
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;thead&gt;</td>
-<td style="text-align:center;vertical-align:middle">Groups the header content in a table</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;tbody&gt;</td>
-<td style="text-align:center;vertical-align:middle">Groups the body content in a table</td>
-</tr>
-<tr>
-<td style="text-align:center;vertical-align:middle">&lt;tfoot&gt;</td>
-<td style="text-align:center;vertical-align:middle">Groups the footer content in a table</td>
-</tr>
-</table>
-
 <br><hr><br>
 <h2> Sample Code </h2>
 <div style=" background-color:#e0dee5;
@@ -581,17 +522,7 @@ HTML frames are used to divide your browser window into multiple sections where 
 	<h2>Definition</h2>
 	<p>You can define an inline frame with HTML tag <code class="codespan">&lt;iframe&gt;</code>. The <code class="codespan">&lt;iframe&gt;</code> tag is not somehow related to <code class="codespan">&lt;frameset&gt;</code> tag, instead, it can appear anywhere in your document. The <code class="codespan">&lt;iframe&gt;</code> tag defines a rectangular region within the document in which the browser can display a separate document, including scrollbars and borders. An inline frame is used to embed another document within the current HTML document.</p>
 	<p>The <b>src</b> attribute is used to specify the URL of the document that occupies the inline frame.</p>
-	<br><hr><br>
-	 <h2> USAGE: </h2>
-	 <ul>
-		 <li>The <iframe> tag specifies an inline frame.</li>
-		 <li>An inline frame is used to embed another document within the current HTML document.</li>
-<li>The <code class="codespan">&lt;iframe&gt;</code> creates an inline frame, which embeds an independent HTML document into the current document.</li>
-		 <li>Iframe tag can appear anywhere in the document</li>
-<li>It defines a rectangular region within the document in which the browser can display a separate document.</li>
-		 <li>It is used to embed another document within the current HTML document.</li>
-	 <br><hr><br>
-	 <h2>
+	<br><hr><br><h2>
 	<code class="codespan">&lt;iframe&gt;</code>Tag Attributes</h2>
 	<p>Most of the attributes of the <code class="codespan"> &lt;iframe&gt;</code> tag, including <i>name, class, frameborder, id, longdesc, marginheight, marginwidth, name, scrolling, style,</i> and <i>title</i> behave exactly like the corresponding attributes for the <code class="codespan">&lt;frame&gt;</code> tag.</p>
 <blockquote><p><b>Note</b> − The <i>frameborder</i>, <i>marginwidth</i>, <i>longdesc</i>, <i>scrolling</i>, <i>marginheight</i> attributes deprecated in HTML5. Do not use these attributes.</p></blockquote>
@@ -659,44 +590,13 @@ HTML frames are used to divide your browser window into multiple sections where 
 </tr></tbody></table><br><br>
 <hr>
 <br>
-<h2>Scripting</h2>
-<p>Inline frames, like <code class="codespan">&lt;frame&gt;</code> elements, are included in the list of the window's frames in the window.frames pseudo-array.
-From the DOM HTMLIFrameElement object which implements the <code class="codespan">&lt;iframe&gt;</code> element, scripts can get access to the window object of the included HTML page via the contentWindow property. The contentDocument property refers to the document element inside the <iframe> (this is equivalent to contentWindow.document).
-From the inside of a frame, a script can get a reference to the parent window using window.parent.
-Scripts trying to access a frame's content are subject to the same-origin policy, and cannot access most of the properties in the other window object if it was loaded from a different domain. This also applies to a script inside a frame trying to access its parent window. Cross-domain communication can still be achieved using Window.postMessage().
-</p>
-<br>
-<hr>
-<br>
-	 
-<h2>Positioning and scaling</h2>
-<p>As a replaced element, the position and alignment of the embedded document within the <iframe> element's box, as well as the scaling of the embedded content, can be adjusted using the object-position and object-fit properties.</p>
-<br>
-<hr>
-<br>
 <h2> Similarities and differences between <code class="codespan">&lt;iframe&gt;</code> and <code class="codespan">&lt;frame&gt;</code> </h2>
+
 <p>Both elements represent an independant HTML document. They content for the document is referenced in the <b>src </b> attribute of each element, so it is actually a fully independent resource being referenced from the current document.
 The main difference between <code class="codespan">&lt;iframe&gt;</code>and<code class="codespan">&lt;frame&gt;</code> is that<code class="codespan">&lt;iframe&gt;</code> implements this in a way that makes sense, that respects what an HTML document is in the first place. The contents of the <code class="codespan">&lt;iframe&gt;</code> are displayed inside an element which is clearly a part of the current document.
 </p>  
-<br><hr><br>
-	 <h2> Good uses for <code class="codespan">&lt;iframe&gt;</code>:</h2>
 
-<p>There are some legitimate uses for <iframe>, and mimicking terrible design patterns from the 1990s is not one of them. Here are a few:
-	<ul>
-	<li>embedding third-party media</li>
-	<li>embedding your own media in a document-agnostic way</li>
-	<li>embedding code examples (we do it on this site)</li>
-	<li>embedding third party “applets” like payment forms </li>
-	 </ul>
-	</p>
-<p>And here are some terrible uses for <code class="codespan">&lt;iframe&gt;</code>
-	 <ul>
-	 <li>photo gallery</li>
-	 <li>forum or chan</li>
-	 </ul>
-	 </p>
-<p>Basically — if you need to embed some independant, already-existing HTML document into the current document, use an <code class="codespan">&lt;iframe&gt;</code>. If you are building all of it from scratch together, there is almost no good reason to break a page design into several independent documents, especially if they _aren't actually independent pieces of content.
-These attributes are deprecated and may no longer be supported by all browsers and user agents. You should not use them in new content, and should try to remove them from existing content.</p>
+<br><hr><br>
 <br><hr><br>
 <h2> Sample Code </h2>
 <div style=" background-color:#e0dee5;
